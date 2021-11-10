@@ -1,0 +1,17 @@
+{
+  "name": "fileserver",
+  "version": "0.0.1",
+  "description": "fileserver pour bouygues telecom",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
+  },
+  "author": "aminum",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^5.0.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
